@@ -7,13 +7,11 @@ body {
 }
 
 .loading {
-    background-color:rgb(118, 224, 189)e;
     max-width:50%;
     line-height: 1,4;
     font-size:1.2rem;
     font-weight:bold; 
     text-align: center;
-
 }
 
 .loading__author{
@@ -22,21 +20,17 @@ body {
     color: rgba(189, 189, 189, 1); 
     margin: 0.6rem 0 2rem 0;
     display: block;
-
-  
 }
 
 .loading__anim {
     width: 35px;
     height: 35px;
     display: inline-block;
-    border: 5px solid rgba(189, 189, 189, 0.25);
-    border-left-color: rgba(3, 155 , 174,0.5);
+    border: 5px solid rgb(0, 0, 0);
+    border-left-color: rgba(138, 3, 3, 1);
     border-top-color: rgb(3, 155, 174,0,5);
     border-radius: 50%;
-    animation: rotate 600ms infinite linear;
-
-
+    animation: rotate 500ms infinite linear;
 }
 
 @keyframes rotate{to {transform: rotate(1turn)}}
